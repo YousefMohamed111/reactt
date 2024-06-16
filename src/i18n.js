@@ -89,7 +89,15 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 "lastUpdated": "Last updated 3 mins ago",
                 go: "Go to sweet to complete purchase or finish",
                 English: "Welcome to the best restaurants in Thailand.",
-                w: "You have to Enter Your Address in the label"
+                w: "You have to Enter Your Address in the label",
+                comments: "A wonderful experience. I recommend everyone to eat at this restaurant. A wonderful experience. I recommend everyone to eat at this restaurant.",
+                clien: "our best comments clients",
+                q: "Learn about our chefs.",
+                ww: "How they cook food and serve us delicious meals.",
+                e: "With the latest delicious and expensive ingredients.",
+                r: "How they cook food and serve us delicious meals.",
+                t: "Serving us delicious food.",
+                register: "register"
             }
         },
         ar: {
@@ -183,7 +191,15 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 Enter5: "أدخل رقمك",
                 Enter6: "أدخل بريدك الإلكتروني",
                 English: "مرحبًا بك في أفضل المطاعم في تايلاند.",
-                w: "يجب عليك إدخال عنوانك في الحقل"
+                w: "يجب عليك إدخال عنوانك في الحقل",
+                comments: "تجربة رائعة. أوصي الجميع بتناول الطعام في هذا المطعم. تجربة رائعة. أوصي الجميع بتناول الطعام في هذا المطعم.",
+                clien: "لدينا أفضل تعليقات العملاء",
+                q: "تعرف على طهاةنا.",
+                ww: "وكيف يطبخون الطعام ويقدمون لنا طعامًا لذيذًا.",
+                e: "وبأحدث المكونات اللذيذة والغالية.",
+                r: "وكيف يطبخون الطعام ويقدمون لنا طعامًا لذيذًا.",
+                t: "ويقدمون لنا طعامًا لذيذًا.",
+                register: "تسجيل"
             }
         },
         de: {
@@ -274,12 +290,21 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 "lastUpdated": "Zuletzt vor 3 Minuten aktualisiert",
                 go: "Allez aux desserts pour finaliser l'achat ou terminer",
                 English: "Willkommen in den besten Restaurants in Thailand.",
-                w: "Sie müssen Ihre Adresse in das Feld eingeben"
-
+                w: "Sie müssen Ihre Adresse in das Feld eingeben",
+                comments: "tolle Erfahrung. Ich empfehle jedem, in diesem Restaurant zu essen. tolle Erfahrung. Ich empfehle jedem, in diesem Restaurant zu essen.",
+                clien: "Unsere besten Kundenkommentare",
+                q: "Erfahren Sie mehr über unsere Köche.",
+                ww: "Wie sie Essen zubereiten und uns köstliche Mahlzeiten servieren.",
+                e: "Mit den neuesten köstlichen und teuren Zutaten.",
+                r: "Wie sie Essen zubereiten und uns köstliche Mahlzeiten servieren.",
+                t: "Servieren uns köstliches Essen.",
+                register: "registrieren"
             }
         },
         fr: {
             translation: {
+                comments: "belle expérience. Je recommande à tout le monde de manger dans ce restaurant. belle expérience. Je recommande à tout le monde de manger dans ce restaurant.",
+                clien: 'nos meilleurs commentaires clients',
                 greeting: "Votre prénom",
                 greetin: "Votre nom de famille",
                 greeti: "Votre email",
@@ -372,8 +397,13 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 Enter5: "Entrez votre numéro",
                 Enter6: "Entrez votre email",
                 English: "Bienvenue dans les meilleurs restaurants en Thaïlande.",
-                w: "Vous devez entrer votre adresse dans le champ"
-
+                w: "Vous devez entrer votre adresse dans le champ",
+                q: "Apprenez à connaître nos chefs.",
+                ww: "Comment ils cuisinent la nourriture et nous servent des repas délicieux.",
+                e: "Avec les ingrédients délicieux et coûteux les plus récents.",
+                r: "Comment ils cuisinent la nourriture et nous servent des repas délicieux.",
+                t: "Nous servant de la nourriture délicieuse.",
+                register: "s'inscrire"
 
             }
         }

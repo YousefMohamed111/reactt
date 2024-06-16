@@ -22,6 +22,11 @@ function Sweet() {
                     'X-RapidAPI-Key': 'ddf881fae0mshe761ff8e4a2b0cbp116c40jsne983689f024f',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
+                // لو  خلص عدد مرات ال request api  
+                // headers: {
+                //     'x-rapidapi-key': 'bd47444328msh75f1580f52b7bc9p1ef4aajsna79c6ca80cec',
+                //     'x-rapidapi-host': 'pizza-and-desserts.p.rapidapi.com'
+                // }
             };
             try {
                 const response = await axios.request(options);

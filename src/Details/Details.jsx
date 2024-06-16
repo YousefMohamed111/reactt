@@ -13,8 +13,8 @@ function Details() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'ddf881fae0mshe761ff8e4a2b0cbp116c40jsne983689f024f',
-                    'X-RapidAPI-Host': 'chinese-food-db.p.rapidapi.com'
+                    'x-rapidapi-key': 'bd47444328msh75f1580f52b7bc9p1ef4aajsna79c6ca80cec',
+                    'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
             };
 

@@ -5,6 +5,8 @@ import Question from "../question&&answer/question&&answer";
 import Aboutus from "../Aboutus/Aboutus";
 import End from "../End/End";
 import Visit from "../Visit/visit";
+import Chiefs from "../chiefs/chiefs";
+import Comment from "../comments/comment";
 function Layout() {
     return (
         <>
@@ -12,7 +14,9 @@ function Layout() {
             <Outlet />
             <Meal />
             <Aboutus />
+            <Chiefs />
             <Visit />
+            <Comment />
             <Question />
             <End />
         </>

@@ -83,7 +83,7 @@ function Company() {
             <div className='container-fulied bb'>
                 {team.map((items, index) => (
                     <div key={index}>
-                        <img src={items.img} className='taemimg' />
+                        <img src={items.img} className='' />
                         <p className='nameteam'>{items.Name}</p>
                     </div>
                 ))}

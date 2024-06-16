@@ -40,6 +40,8 @@ const SignupForm = () => {
                 });
                 if (response.status === 200) {
                     console.log('Signup successful');
+                    const token = response.data.token;
+                    localStorage.setItem('token', token);
                     navigate('/L');
                 }
             } catch (error) {
@@ -47,6 +49,23 @@ const SignupForm = () => {
             }
         },
     });
+    //Email:your_email@gdomain.com
+    // password:Your_password123.
+    const fetchData = async () => {
+        const token = localStorage.getItem('token');
+        try {
+            const response = await axios.get('https://jwt-bearer-auth1.p.rapidapi.com/login', {
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                }
+            });
+
+            console.log(response.data);
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
     return (
         <>
             <Languageselectors />
@@ -60,7 +79,7 @@ const SignupForm = () => {
                             id="firstName"
                             name="firstName"
                             type="text"
-                            placeholder='Enter Your First Name'
+                            placeholder={t("greeting")}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.firstName}
@@ -74,7 +93,7 @@ const SignupForm = () => {
                             id="lastName"
                             name="lastName"
                             type="text"
-                            placeholder='Enter Your Last Name'
+                            placeholder={t("greetin")}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.lastName}
@@ -88,7 +107,7 @@ const SignupForm = () => {
                             id="email"
                             name="email"
                             type="email"
-                            placeholder='Enter Your Email'
+                            placeholder={t("greeti")}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.email}
@@ -105,7 +124,7 @@ const SignupForm = () => {
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.password}
-                            placeholder='Enter Your Password'
+                            placeholder={t("greet")}
                         />
                         {formik.touched.password && formik.errors.password && <p className='message-error my-2 fs-6'>{formik.errors.password}</p>}
                     </div>
@@ -119,7 +138,7 @@ const SignupForm = () => {
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.repassword}
-                            placeholder='Enter Confirm Your Passwoed'
+                            placeholder={t("gree")}
                         />
                         {formik.touched.repassword && formik.errors.repassword && <p className='message-error my-2 fs-6'>{formik.errors.repassword}</p>}
                     </div>
@@ -133,11 +152,11 @@ const SignupForm = () => {
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             value={formik.values.number}
-                            placeholder='Enter Your Number phone'
+                            placeholder={t("gre")}
                         />
                         {formik.touched.number && formik.errors.number && <p className='message-error my-2 fs-6'>{formik.errors.number}</p>}
                     </div>
-                    <button type="submit" className='btn btn-primary'>rigeter</button>
+                    <button type="submit" className='btn btn-primary'>{t("register")}</button>
                 </form >
             </div>
         </>

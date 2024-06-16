@@ -14,8 +14,8 @@ function Meal() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'ddf881fae0mshe761ff8e4a2b0cbp116c40jsne983689f024f',
-                    'X-RapidAPI-Host': 'chinese-food-db.p.rapidapi.com'
+                    'x-rapidapi-key': 'bd47444328msh75f1580f52b7bc9p1ef4aajsna79c6ca80cec',
+                    'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
             };
 
@@ -56,7 +56,7 @@ function Meal() {
 
         <div className="container">
             <p className="check">Check Our Meals</p>
-            <input type="text" className="form-control" id="exampleInputEmail1" onChange={filterData} placeholder="Enter your Meal " />
+            <input type="text" className="form-control"  onChange={filterData} placeholder="Enter your Meal " />
             <div className="row">
                 {search.map((item, index) => (
                     <div key={index} className="col-lg-4 col-md-6 mb-4">
