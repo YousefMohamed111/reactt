@@ -7,6 +7,7 @@ import End from "../End/End";
 import Visit from "../Visit/visit";
 import Chiefs from "../chiefs/chiefs";
 import Comment from "../comments/comment";
+import'./layout.css'
 function Layout() {
     return (
         <>
