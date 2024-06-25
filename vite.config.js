@@ -6,7 +6,8 @@ export default defineConfig({
   build: {
     outDir: 'build', // المجلد الذي يتم فيه إنتاج الملفات بعد البناء
     assetsDir: '.',
-  }
+  },
+  base: './',
 })
 
 // import { defineConfig } from 'vite';
