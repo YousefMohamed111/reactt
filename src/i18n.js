@@ -97,7 +97,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 e: "With the latest delicious and expensive ingredients.",
                 r: "How they cook food and serve us delicious meals.",
                 t: "Serving us delicious food.",
-                register: "register"
+                register: "register",
+                dont:"Are You Don't have account?"
             }
         },
         ar: {
@@ -199,7 +200,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 e: "وبأحدث المكونات اللذيذة والغالية.",
                 r: "وكيف يطبخون الطعام ويقدمون لنا طعامًا لذيذًا.",
                 t: "ويقدمون لنا طعامًا لذيذًا.",
-                register: "تسجيل"
+                register: "تسجيل",
+                dont:"ليس لديك حساب "
             }
         },
         de: {
@@ -298,7 +300,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 e: "Mit den neuesten köstlichen und teuren Zutaten.",
                 r: "Wie sie Essen zubereiten und uns köstliche Mahlzeiten servieren.",
                 t: "Servieren uns köstliches Essen.",
-                register: "registrieren"
+                register: "registrieren",
+                dont:"Sie haben kein Konto?"
             }
         },
         fr: {
@@ -403,7 +406,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 e: "Avec les ingrédients délicieux et coûteux les plus récents.",
                 r: "Comment ils cuisinent la nourriture et nous servent des repas délicieux.",
                 t: "Nous servant de la nourriture délicieuse.",
-                register: "s'inscrire"
+                register: "s'inscrire",
+                dont:"Vous n'avez pas de compte ?"
 
             }
         }

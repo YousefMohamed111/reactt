@@ -10,6 +10,7 @@ import team5 from './img/woman-8728020_640.webp';
 import img from './img/expand-home-img.png';
 import { useTranslation } from 'react-i18next';
 import Languageselectors from '../components/language-selectors';
+import End from '../End/End';
 
 function Company() {
     const { t } = useTranslation();
@@ -53,7 +54,7 @@ function Company() {
     return (
         <>
             <div className="container-fluid b">
-            <Languageselectors />
+                <Languageselectors />
                 <div className='main'>
                     <p>{t("company_description")}</p>
                 </div>
@@ -83,11 +84,12 @@ function Company() {
             <div className='container-fulied bb'>
                 {team.map((items, index) => (
                     <div key={index}>
-                        <img src={items.img} className='' />
+                        <img src={items.img} className='taemimg' />
                         <p className='nameteam'>{items.Name}</p>
                     </div>
                 ))}
             </div>
+            <End />
         </>
     );
 }
