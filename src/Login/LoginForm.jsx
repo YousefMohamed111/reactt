@@ -14,11 +14,9 @@ const LoginForm = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        // إضافة الفئة عند تركيب المكون
-        document.body.classList.add('signup-body');
+               document.body.classList.add('signup-body');
         return () => {
-            // إزالة الفئة عند فك تركيب المكون
-            document.body.classList.remove('signup-body');
+                   document.body.classList.remove('signup-body');
         };
     }, []);
 
