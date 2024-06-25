@@ -1,5 +1,5 @@
 {
-  "homepage": "https://YousefMohamed111.github.io/reactt",
+  "homepage": "https://YousefMohamed111.github.io/r",
   "name": "react-fegm",
   "private": true,
   "version": "0.0.0",
@@ -27,6 +27,7 @@
     "buffer": "^6.0.3",
     "bufferutil": "^4.0.8",
     "formik": "^2.4.6",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.11.4",
     "i18next-browser-languagedetector": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
@@ -52,7 +53,6 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
