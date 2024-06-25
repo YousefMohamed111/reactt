@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: 'build', // المجلد الذي يتم فيه إنتاج الملفات بعد البناء
     assetsDir: '.',
   },
-  base: './',
+  base: '/reactt/' 
 })
 
 // import { defineConfig } from 'vite';
